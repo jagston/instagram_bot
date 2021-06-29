@@ -15,7 +15,7 @@ class InstagramBot():
 
         self.username = username
         self.password = password
-        self.browser = webdriver.Chrome("../chromedriver/chromedriver")
+        self.browser = webdriver.Chrome(r"C:\Users\User\PycharmProjects\instagram_bot\chromedriver\chromedriver")
 
     # метод для закрытия браузера
     def close_browser(self):
@@ -242,5 +242,5 @@ class InstagramBot():
 
 my_bot = InstagramBot(username, password)
 my_bot.login()
-my_bot.download_userpage_content("https://www.instagram.com/username/")
+my_bot.download_userpage_content("https://www.instagram.com/margaritta.d/")
 
