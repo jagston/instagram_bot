@@ -17,7 +17,7 @@ class InstagramBot():
         self.password = password
         self.browser = webdriver.Chrome("../chromedriver/chromedriver")
 
-    # метод для закрытия браузера.
+    # метод для закрытия браузера
     def close_browser(self):
 
         self.browser.close()
